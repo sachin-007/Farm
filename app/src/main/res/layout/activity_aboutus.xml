@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Heading: About Us -->
+            <LinearLayout
+
+                android:paddingEnd="15dp"
+                android:id="@+id/headk"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@color/background"
+
+                >
+
+
+
+
+                <ImageView
+                    android:background="@drawable/ripple_effect"
+                    android:id="@+id/backbtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="8dp"
+
+                    android:src="@drawable/backbtn"
+                    />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About US"
+                    android:textSize="14sp"
+                    android:textColor="#FF000000"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/celebes_bold"/>
+
+
+
+            </LinearLayout>
+
+
+
+            <!-- Subheading: Who We Are -->
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Who We Are"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Paragraph: Welcome to [Your Company Name]! -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to [Your Company Name]! We're a passionate and dedicated team committed to making a difference in the [Your Industry] industry. Our mission is to [Briefly state your mission]."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Subheading: Our Story -->
+                <TextView
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Our Story"
+
+                    android:paddingBottom="8dp"/>
+
+                <!-- Paragraph: [Your Company Name] was founded in [Year of Establishment] -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Your Company Name] was founded in [Year of Establishment] with a vision to [Briefly explain the vision or reason for starting the company]. Over the years, we've grown and evolved, but our commitment to [Core Value 1], [Core Value 2], and [Core Value 3] remains unchanged."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Subheading: Meet Our Team -->
+                <TextView
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meet Our Team"
+
+                    android:paddingBottom="8dp"/>
+
+                <!-- Team Member 1: [Founder/Team Member Name] - [Role] -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Founder/Team Member Name] - [Role]"
+
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="14sp"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Team Member 1 Description -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[A short description or bio about this team member, their expertise, and contributions]"
+                    android:paddingBottom="16dp"/>
+
+                <!-- Team Member 2: [Founder/Team Member Name] - [Role] -->
+                <TextView
+
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Founder/Team Member Name] - [Role]"
+
+
+                    android:paddingBottom="8dp"/>
+
+                <!-- Team Member 2 Description -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[A short description or bio about this team member, their expertise, and contributions]"
+                    android:paddingBottom="16dp"/>
+
+                <!-- Team Member 3: [Founder/Team Member Name] - [Role] -->
+                <TextView
+
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Founder/Team Member Name] - [Role]"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Team Member 3 Description -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[A short description or bio about this team member, their expertise, and contributions]"
+                    android:paddingBottom="16dp"/>
+
+                <!-- Subheading: Our Vision -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Our Vision"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Paragraph: We believe in [Describe your long-term vision or what you hope to achieve]. -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We believe in [Describe your long-term vision or what you hope to achieve]. Our dedication to innovation and customer satisfaction drives us to continually improve and provide you with the best [Your Product or Service] experience."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Subheading: Contact Us -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Paragraph: Have questions or want to get in touch? -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have questions or want to get in touch? We'd love to hear from you. Contact us at [Your Contact Information]."
+                    android:paddingBottom="16dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

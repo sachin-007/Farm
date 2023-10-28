@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".termncondition">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+
+                android:paddingEnd="15dp"
+                android:id="@+id/headk"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@color/background"
+
+                >
+
+
+
+
+                <ImageView
+                    android:background="@drawable/ripple_effect"
+                    android:id="@+id/backbtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="8dp"
+
+                    android:src="@drawable/backbtn"
+                    />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Condition"
+                    android:textSize="14sp"
+                    android:textColor="#FF000000"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/celebes_bold"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:orientation="vertical">
+                <!-- Subheading: Last Updated -->
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last Updated: 23 Oct 2023"
+                    android:textSize="14sp"
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Acceptance of Terms -->
+                <TextView
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Acceptance of Terms"
+                    />
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="By using this website or application, you agree to be bound by these terms and conditions. If you do not agree with any part of these terms, please do not use our service."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Use of Content -->
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Use of Content"
+
+                    />
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All content on this website or application, including text, images, and other materials, is provided for general information and personal use only. You may not modify, reproduce, or distribute any part of this content without our written consent."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: User Conduct -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. User Conduct"
+
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When using our service, you agree not to:"
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Engage in any unlawful or harmful activities."
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Impersonate another person or entity."
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Attempt to gain unauthorized access to our systems."
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Violate any applicable laws or regulations."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Privacy Policy -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Privacy Policy"
+
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please refer to our Privacy Policy to understand how we collect, use, and protect your personal information."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Termination of Service -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Termination of Service"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We reserve the right to terminate or suspend access to our service at our discretion, without notice, for any reason, including, but not limited to, a breach of these terms."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Disclaimers -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Disclaimers"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The content provided on our service is for informational purposes only. We make no warranties, express or implied, regarding the accuracy, reliability, or suitability of the content."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Limitation of Liability -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Limitation of Liability"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"/>
+
+                <!-- Paragraph: Changes to Terms -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+
+                    android:fontFamily="@font/celebes_reguler"
+                    android:paddingBottom="16dp"
+                    android:text="We are not liable for any direct, indirect, incidental, special, or consequential damages that may result from your use of our service."
+                    android:textColor="@color/black" />
+
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Changes to Terms"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We may update these terms and conditions from time to time. Please check the 'Last Updated' date to see when the terms were last revised. Your continued use of our service after any changes indicate your acceptance of the new terms."
+                    android:paddingBottom="16dp"/>
+
+                <!-- Paragraph: Contact Information -->
+                <TextView
+
+                    android:textColor="@color/black"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9. Contact Information"
+                    android:fontFamily="@font/celebes_semi_bold"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:fontFamily="@font/celebes_reguler"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If you have any questions or concerns about these terms and conditions, please contact us at [Your Contact Information]."/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

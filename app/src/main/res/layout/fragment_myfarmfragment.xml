@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myfarmfragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                app:cardCornerRadius="10dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c3e4e0"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="2.5dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Plot Reports"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_marginStart="15dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add all your devices to the app."
+                            android:textColor="#35383F"
+                            android:textSize="14sp"
+                            android:layout_marginStart="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c3e4e0"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:background="@drawable/ripple_effectad"
+                        android:id="@+id/myDeviceLayout"
+                        android:gravity="center_horizontal"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp">
+
+
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:src="@drawable/plus"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Devices"
+                            android:textColor="#00a693"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:textColor="#35383F"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add all your devices to the app by scanning the QR code on the device." />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            >
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/cropstage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop Stage"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            />
+        <Button
+android:layout_weight="1"
+            android:id="@+id/activitypage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="activitypage"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:layout_weight="1"
+
+            android:id="@+id/spreytiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SpreyTiming"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <Button
+            android:layout_weight="1"
+
+            android:id="@+id/popupting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PopUp"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

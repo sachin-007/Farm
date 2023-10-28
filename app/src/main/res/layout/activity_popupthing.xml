@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".popupthing">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@color/processsed"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+
+                >
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <FrameLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFFFFF"
+                            android:scaleType="fitXY"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="30dp"
+                                    android:textSize="14sp"
+                                    android:text="  "
+                                    android:layout_marginStart="10dp"
+                                    android:paddingStart="10dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/greenboxfill"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="This time is best for spraying"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp"
+                                    android:layout_marginStart="15dp"
+                                    android:fontFamily="@font/celebes_reguler"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="30dp"
+                                    android:textSize="14sp"
+                                    android:text="  "
+                                    android:layout_marginStart="10dp"
+                                    android:paddingStart="10dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/yellow"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Spray with caution"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp"
+                                    android:layout_marginStart="15dp"
+                                    android:fontFamily="@font/celebes_reguler"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="30dp"
+                                    android:textSize="14sp"
+                                    android:text="  "
+                                    android:layout_marginStart="10dp"
+                                    android:paddingStart="10dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/red"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Do not spray at this time"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp"
+                                    android:layout_marginStart="15dp"
+                                    android:fontFamily="@font/celebes_reguler"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

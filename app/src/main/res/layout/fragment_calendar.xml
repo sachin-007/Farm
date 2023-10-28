@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CalendarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp">
+
+                    <TextView
+                        android:id="@+id/dateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="Date : "
+                        android:textColor="@color/black"
+
+
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/dateEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:fontFamily="@font/celebes_reguler"
+                        android:gravity="end"
+                        android:hint="DD/MM/YYYY"
+                        android:inputType="none"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/borderline" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="Which plots"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+                            android:text="Sector 1"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/greenline"
+                            android:gravity="center"
+                            android:text="Sector 2"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/greenline"
+                            android:gravity="center"
+                            android:text="Sector 3"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/borderline" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+
+                        android:text="What activities"
+
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:columnCount="2"
+                        android:rowCount="3">
+
+                        <!-- Row 1, Column 1 -->
+                        <TextView
+                            android:id="@+id/irrigation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Irrigation"
+                            android:textColor="@color/textfent" />
+
+                        <!-- Row 1, Column 2 -->
+                        <TextView
+                            android:id="@+id/spraypest"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Spray Pest/ Disease"
+                            android:textColor="@color/textfent" />
+
+                        <!-- Row 2, Column 1 -->
+                        <TextView
+                            android:id="@+id/nutrients"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+
+                            android:layout_margin="5dp"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Nutrients"
+
+                            android:textColor="@color/textfent" />
+
+                        <!-- Row 2, Column 2 -->
+                        <TextView
+                            android:id="@+id/scouting"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+
+                            android:padding="8dp"
+                            android:text="Scouting"
+
+                            android:textColor="@color/textfent" />
+
+                        <!-- Row 3, Column 1 -->
+                        <TextView
+                            android:id="@+id/farmpractice"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Farm Practice"
+
+                            android:textColor="@color/textfent" />
+
+                        <!-- Row 3, Column 2 -->
+                        <TextView
+                            android:id="@+id/otherss"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/greenbox"
+                            android:gravity="center"
+
+                            android:padding="8dp"
+                            android:text="Others"
+                            android:textColor="@color/textfent" />
+                    </GridLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/borderline" />
+
+<!--                irrigation popup-->
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/irrigationpopup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="Irrigation"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:weightSum="2">
+
+                        <!-- Column 1: Hours Spinner -->
+                        <RelativeLayout
+                            android:id="@+id/hoursSpinnerContainer"
+                            android:layout_width="0dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <LinearLayout
+                                android:gravity="center_horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <Spinner
+                                    android:id="@+id/minutesSpinner"
+                                    style="@style/SpinnerStyle"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/greenbox"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hours"
+                                    android:textColor="@color/textfent"
+                                    android:textSize="14sp"
+                                    android:fontFamily="@font/celebes_reguler"
+                                    android:gravity="center" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <!-- Column 2: Minutes Spinner -->
+                        <RelativeLayout
+                            android:id="@+id/minutesSpinnerContainer"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <Spinner
+                                    android:id="@+id/hoursSpinner"
+                                    style="@style/SpinnerStyle"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/greenbox"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Minutes"
+                                    android:textColor="@color/textfent"
+                                    android:textSize="14sp"
+                                    android:fontFamily="@font/celebes_reguler"
+                                    android:gravity="center" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+<!--                Spray pest popup-->
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/spreypopup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="Notes"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+
+                        />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:background="@color/white"
+                            >
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:background="@null"
+                                android:textSize="14sp"
+                                android:textColor="@color/textfent"
+                                android:fontFamily="@font/celebes_reguler"
+                                android:fadeScrollbars="true"
+                                android:hint="For Example : Sprayed copper 1Kg in 500 liter water"
+                                android:gravity="top"
+                                android:padding="5dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+<!--Nutrients popup-->
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/nutrientspopup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="Notes"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+
+                        />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:background="@color/white"
+                            >
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:background="@null"
+                                android:textSize="14sp"
+                                android:textColor="@color/textfent"
+                                android:fontFamily="@font/celebes_reguler"
+                                android:fadeScrollbars="true"
+                                android:hint="For Example : Applied 50Kg Urea"
+                                android:gravity="top"
+                                android:padding="5dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+<!--                farmpractice popup-->
+                <LinearLayout
+                    android:id="@+id/farmpracticepopup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="What within cultural activity?"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="15dp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/lineview"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/borderline" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/celebes_bold"
+                        android:text="Attach Images"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_margin="20dp"
+                        android:layout_marginTop="15dp"
+                        android:weightSum="3">
+
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:id="@+id/imageView1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/whiteboxdotted"
+                            android:src="@drawable/plusforimg"
+
+
+                            />
+
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:id="@+id/imageView2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/whiteboxdotted"
+                            android:src="@drawable/plusforimg"
+
+
+                            />
+
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:id="@+id/imageView3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/whiteboxdotted"
+                            android:src="@drawable/plusforimg"
+
+
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/savebtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/greenbtn"
+                        android:fontFamily="@font/celebes_semi_bold"
+
+                        android:text="Save"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:itemRippleColor="@color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

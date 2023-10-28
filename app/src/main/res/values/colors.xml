@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="initialColor">#FFFFFF</color> <!-- Initial color (white) -->
+    <color name="targetColor">#e3f2f1</color> <!-- Target color (orange) -->
+
+
+    <color name="placeorder" >#00a693</color>
+    <color name="processsed" >#c3e4e0</color>
+    <color name="background" >#e3f2f1</color>
+    <color name="textfent" >#32383F</color>
+
+
+
+
+</resources>
