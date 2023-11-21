@@ -52,6 +52,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Plot Reports"
+                            android:fontFamily="@font/urbanist_bold"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="14sp"
@@ -63,6 +64,7 @@
                             android:text="Add all your devices to the app."
                             android:textColor="#35383F"
                             android:textSize="14sp"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_marginStart="15dp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -108,6 +110,7 @@
                             android:textColor="#00a693"
                             android:textStyle="bold"
                             android:textSize="14sp"
+                            android:fontFamily="@font/urbanist_bold"
                             android:layout_gravity="center_vertical"
                             android:layout_marginStart="15dp" />
                     </LinearLayout>
@@ -116,9 +119,10 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginTop="15dp"
-                        android:textSize="13sp"
+                        android:textSize="16sp"
                         android:gravity="center"
                         android:textColor="#35383F"
+                        android:fontFamily="@font/urbanist_regular"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Add all your devices to the app by scanning the QR code on the device." />
@@ -132,53 +136,53 @@
             android:weightSum="4"
             >
 
-        <Button
-            android:layout_weight="1"
-            android:id="@+id/cropstage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Crop Stage"
-            android:textSize="14sp"
-            android:textAllCaps="false"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="15dp"
-            />
-        <Button
-android:layout_weight="1"
-            android:id="@+id/activitypage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="activitypage"
-            android:textSize="14sp"
-            android:textAllCaps="false"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="15dp"
-            />
-        <Button
-            android:layout_weight="1"
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/cropstage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crop Stage"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/activitypage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="activitypage"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                />
+            <Button
+                android:layout_weight="1"
 
-            android:id="@+id/spreytiming"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SpreyTiming"
-            android:textSize="14sp"
-            android:textAllCaps="false"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="15dp"
-            />
+                android:id="@+id/spreytiming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SpreyTiming"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                />
 
-        <Button
-            android:layout_weight="1"
+            <Button
+                android:layout_weight="1"
 
-            android:id="@+id/popupting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PopUp"
-            android:textSize="14sp"
-            android:textAllCaps="false"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="15dp"
-            />
+                android:id="@+id/popupting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PopUp"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                />
         </LinearLayout>
 
 

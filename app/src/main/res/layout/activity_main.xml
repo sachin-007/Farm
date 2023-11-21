@@ -8,47 +8,57 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_above="@id/navigation_view"
         android:id="@+id/topt"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_marginBottom="5dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
-            android:id="@+id/headk"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:gravity="center_vertical"
-            android:layout_marginTop="20dp">
+            >
+
+            <!-- First ImageView -->
             <ImageView
                 android:background="@drawable/ripple_effect"
                 android:id="@+id/profilenavigation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/menulist" />
-            <ImageView
+
+
+            <View
+                android:layout_marginStart="15dp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/cakebake"
+                android:background="@drawable/myfarmbg"
                 />
+
+
+
+            <!-- Third LinearLayout -->
             <LinearLayout
-                android:background="@drawable/ripple_effect"
+                android:gravity="end"
+                android:layout_weight="1"
                 android:id="@+id/adddivice"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 >
                 <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="1dp"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:layout_marginEnd="5dp"
-                    android:layout_gravity="center"
+                    android:layout_gravity="center_vertical"
                     android:scaleType="centerCrop"
                     android:src="@drawable/plus" />
                 <TextView
+                    android:fontFamily="@font/urbanist_regular"
                     android:id="@+id/calenderred"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -59,41 +69,31 @@
                     />
             </LinearLayout>
         </LinearLayout>
-        <LinearLayout
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tabLayout"
-            android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:tabGravity="fill"
-                android:background="@color/white"
-                app:tabIndicatorColor="#00a693"
-                app:tabMode="fixed"
-                app:tabSelectedTextColor="#00a693"
-                app:tabTextColor="@color/black"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp" />
 
-            <!-- ViewPager -->
-            <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/viewPager"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
 
-                />
-        </LinearLayout>
+
     </LinearLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/framecontainer"
+        android:layout_above="@+id/navigation_view"
+        android:layout_below="@+id/topt"
+        />
+
+
+
+
+
+
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+
         android:id="@+id/navigation_view"
         style="@style/CustomBottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="-2dp"
         android:background="#00a693"
@@ -102,5 +102,11 @@
         app:backgroundTint="#00a693"
         app:itemRippleColor="@color/white"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/bottom_nav_menu" />
+        app:menu="@menu/bottom_nav_menu"
+        app:itemTextAppearance="@style/CustomBottomNavTextStyle"
+
+        />
+
+
+
 </RelativeLayout>

@@ -1,13 +1,16 @@
 package com.example.farm;
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+
 public class MyPagerAdapter extends FragmentStateAdapter {
-    public MyPagerAdapter(FragmentActivity fragmentActivity) {
-        super(fragmentActivity);
+    public MyPagerAdapter(Fragment fragment) {
+        super(fragment);
     }
 
+    @NonNull
     @Override
     public Fragment createFragment(int position) {
         switch (position) {
@@ -17,14 +20,7 @@ public class MyPagerAdapter extends FragmentStateAdapter {
                 return new weatherfragment();
             case 2:
                 return new dailyreportfragment();
-            case 3:
-                return new Myfarmfragment();
-            case 4:
-                return new CalendarFragment();
-            case 5:
-                return new activitypagedieasesfragment();
-            case 6:
-                return new PlotsFragment();
+
             default:
                 throw new IllegalArgumentException("Invalid position");
         }
@@ -32,6 +28,6 @@ public class MyPagerAdapter extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return 7;
+        return 3;
     }
 }

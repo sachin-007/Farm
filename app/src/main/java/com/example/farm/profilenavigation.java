@@ -8,7 +8,6 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -18,14 +17,19 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 
 public class profilenavigation extends AppCompatActivity {
+    private SharedPreferencesManager sharedPreferencesManager;
 
     ImageView backbtn,profileavatar,selectedImageView;
+
+    TextView profname,profphone;
 
     LinearLayout addplot;
     LinearLayout terms;
     LinearLayout about;
     LinearLayout notification;
-    LinearLayout privacy;
+    LinearLayout privacy,logout;
+
+    TextView Edit;
 
     private static final int IMAGE_PICK_REQUEST = 1;
 
@@ -37,6 +41,7 @@ public class profilenavigation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profilenavigation);
 
+        sharedPreferencesManager = new SharedPreferencesManager(this); // Initialize SharedPreferencesManager
 
         backbtn = findViewById(R.id.backbtn);
         backbtn.setOnClickListener(new View.OnClickListener() {
@@ -51,7 +56,7 @@ public class profilenavigation extends AppCompatActivity {
         addplot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent addp = new Intent(profilenavigation.this,MainActivity__c.class);
+                Intent addp = new Intent(profilenavigation.this, Add_plot.class);
                 startActivity(addp);
             }
         });
@@ -102,6 +107,43 @@ public class profilenavigation extends AppCompatActivity {
             }
         });
 
+        logout=findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(profilenavigation.this, Registration_page.class);
+                UserDataRepository.getInstance().setUserId(-1L);
+
+                sharedPreferencesManager.remove();
+
+
+
+                Toast.makeText(profilenavigation.this, "Logout Successful", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+            }
+        });
+
+
+        Edit=findViewById(R.id.edit);
+        Edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent editpg=new Intent(profilenavigation.this, edit_page.class);
+                startActivity(editpg);
+            }
+        });
+
+        profname=findViewById(R.id.profname);
+        profphone=findViewById(R.id.profphone);
+
+
+        String name,phone;
+        SharedPreferencesManager.User ud= sharedPreferencesManager.getUserData() ;
+        phone = ud.getPhone();
+        name = ud.getName();
+        profphone.setText(phone);
+        profname.setText(name);
 
     }
 

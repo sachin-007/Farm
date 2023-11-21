@@ -32,7 +32,7 @@
                         android:id="@+id/dateTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="Date : "
                         android:textColor="@color/black"
 
@@ -48,7 +48,7 @@
                         android:clickable="true"
                         android:focusable="false"
                         android:focusableInTouchMode="false"
-                        android:fontFamily="@font/celebes_reguler"
+                        android:fontFamily="@font/urbanist_regular"
                         android:gravity="end"
                         android:hint="DD/MM/YYYY"
                         android:inputType="none"
@@ -77,7 +77,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="Which plots"
                         android:textColor="@color/black"
                         android:textSize="14sp" />
@@ -89,22 +89,26 @@
                         android:weightSum="3">
 
                         <TextView
+                            android:id="@+id/sector1"
                             android:layout_width="0dp"
                             android:layout_height="55dp"
                             android:layout_marginEnd="5dp"
                             android:layout_weight="1"
-                            android:background="@drawable/greenbox"
+                            android:background="@drawable/greenboxfill"
                             android:gravity="center"
                             android:text="Sector 1"
+                            android:fontFamily="@font/urbanist_regular"
                             android:textColor="@color/black"
                             android:textSize="12sp" />
 
                         <TextView
+                            android:id="@+id/sector2"
                             android:layout_width="0dp"
                             android:layout_height="55dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
                             android:layout_weight="1"
+                            android:fontFamily="@font/urbanist_regular"
                             android:background="@drawable/greenline"
                             android:gravity="center"
                             android:text="Sector 2"
@@ -112,10 +116,12 @@
                             android:textSize="12sp" />
 
                         <TextView
+                            android:id="@+id/sector3"
                             android:layout_width="0dp"
                             android:layout_height="55dp"
                             android:layout_marginStart="5dp"
                             android:layout_weight="1"
+                            android:fontFamily="@font/urbanist_regular"
                             android:background="@drawable/greenline"
                             android:gravity="center"
                             android:text="Sector 3"
@@ -145,7 +151,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
 
                         android:text="What activities"
 
@@ -167,8 +173,9 @@
 
                             android:layout_columnWeight="1"
                             android:layout_margin="5dp"
-                            android:background="@drawable/greenbox"
+                            android:background="@drawable/greenboxfill"
                             android:gravity="center"
+                            android:fontFamily="@font/urbanist_regular"
                             android:padding="8dp"
                             android:text="Irrigation"
                             android:textColor="@color/textfent" />
@@ -179,6 +186,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_columnWeight="1"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_margin="5dp"
                             android:background="@drawable/greenbox"
                             android:gravity="center"
@@ -191,6 +199,7 @@
                             android:id="@+id/nutrients"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_columnWeight="1"
 
                             android:layout_margin="5dp"
@@ -208,6 +217,7 @@
                             android:layout_height="wrap_content"
                             android:layout_columnWeight="1"
                             android:layout_margin="5dp"
+                            android:fontFamily="@font/urbanist_regular"
                             android:background="@drawable/greenbox"
                             android:gravity="center"
 
@@ -223,6 +233,7 @@
                             android:layout_height="wrap_content"
                             android:layout_columnWeight="1"
                             android:layout_margin="5dp"
+                            android:fontFamily="@font/urbanist_regular"
                             android:background="@drawable/greenbox"
                             android:gravity="center"
                             android:padding="8dp"
@@ -237,6 +248,7 @@
                             android:layout_height="wrap_content"
                             android:layout_columnWeight="1"
                             android:layout_margin="5dp"
+                            android:fontFamily="@font/urbanist_regular"
                             android:background="@drawable/greenbox"
                             android:gravity="center"
 
@@ -257,7 +269,7 @@
                     android:layout_marginBottom="15dp"
                     android:background="@drawable/borderline" />
 
-<!--                irrigation popup-->
+                <!--                irrigation popup-->
 
                 <LinearLayout
                     android:visibility="gone"
@@ -271,7 +283,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="Irrigation"
                         android:textColor="@color/black"
                         android:textSize="14sp"
@@ -314,7 +326,7 @@
                                     android:text="Hours"
                                     android:textColor="@color/textfent"
                                     android:textSize="14sp"
-                                    android:fontFamily="@font/celebes_reguler"
+                                    android:fontFamily="@font/urbanist_regular"
                                     android:gravity="center" />
                             </LinearLayout>
                         </RelativeLayout>
@@ -349,7 +361,7 @@
                                     android:text="Minutes"
                                     android:textColor="@color/textfent"
                                     android:textSize="14sp"
-                                    android:fontFamily="@font/celebes_reguler"
+                                    android:fontFamily="@font/urbanist_regular"
                                     android:gravity="center" />
                             </LinearLayout>
                         </RelativeLayout>
@@ -358,7 +370,7 @@
 
 
                 </LinearLayout>
-<!--                Spray pest popup-->
+                <!--                Spray pest popup-->
                 <LinearLayout
                     android:visibility="gone"
                     android:id="@+id/spreypopup"
@@ -371,7 +383,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="Notes"
                         android:textColor="@color/black"
                         android:textSize="14sp"
@@ -395,7 +407,7 @@
                                 android:background="@null"
                                 android:textSize="14sp"
                                 android:textColor="@color/textfent"
-                                android:fontFamily="@font/celebes_reguler"
+                                android:fontFamily="@font/urbanist_regular"
                                 android:fadeScrollbars="true"
                                 android:hint="For Example : Sprayed copper 1Kg in 500 liter water"
                                 android:gravity="top"
@@ -409,7 +421,7 @@
 
 
                 </LinearLayout>
-<!--Nutrients popup-->
+                <!--Nutrients popup-->
                 <LinearLayout
                     android:visibility="gone"
                     android:id="@+id/nutrientspopup"
@@ -422,7 +434,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="Notes"
                         android:textColor="@color/black"
                         android:textSize="14sp"
@@ -446,7 +458,7 @@
                                 android:background="@null"
                                 android:textSize="14sp"
                                 android:textColor="@color/textfent"
-                                android:fontFamily="@font/celebes_reguler"
+                                android:fontFamily="@font/urbanist_regular"
                                 android:fadeScrollbars="true"
                                 android:hint="For Example : Applied 50Kg Urea"
                                 android:gravity="top"
@@ -460,7 +472,7 @@
 
 
                 </LinearLayout>
-<!--                farmpractice popup-->
+                <!--                farmpractice popup-->
                 <LinearLayout
                     android:id="@+id/farmpracticepopup"
                     android:layout_width="match_parent"
@@ -472,7 +484,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="What within cultural activity?"
                         android:textColor="@color/black"
                         android:textSize="14sp"
@@ -507,7 +519,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/celebes_bold"
+                        android:fontFamily="@font/urbanist_bold"
                         android:text="Attach Images"
                         android:textColor="@color/black"
                         android:textSize="14sp"
@@ -575,7 +587,7 @@
                         android:layout_marginTop="20dp"
                         android:layout_marginEnd="15dp"
                         android:background="@drawable/greenbtn"
-                        android:fontFamily="@font/celebes_semi_bold"
+                        android:fontFamily="@font/urbanist_semi_bold"
 
                         android:text="Save"
                         android:textAllCaps="false"

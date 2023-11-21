@@ -17,15 +17,15 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Entry your 4 digit code"
-            android:textSize="24sp"
-            android:gravity="center"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/urbanist_bold"
-            android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry your 4 digit code"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/urbanist_bold"
+                android:textColor="@color/black"/>
 
 
             <androidx.cardview.widget.CardView
@@ -88,7 +88,7 @@
                             android:fontFamily="@font/urbanist_regular"
                             android:textColor="@color/black"
                             android:gravity="center"
-                          />
+                            />
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/browsehome"
                             android:layout_width="match_parent"

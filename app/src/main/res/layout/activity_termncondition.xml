@@ -43,10 +43,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Terms and Condition"
-                    android:textSize="14sp"
+                    android:textSize="17sp"
                     android:textColor="#FF000000"
                     android:layout_marginStart="10dp"
-                    android:fontFamily="@font/celebes_bold"/>
+                    android:fontFamily="@font/urbanist_bold"/>
 
 
 
@@ -64,7 +64,7 @@
                 android:orientation="vertical">
                 <!-- Subheading: Last Updated -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                 <!-- Paragraph: Acceptance of Terms -->
                 <TextView
                     android:textColor="@color/black"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                     />
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:layout_width="match_parent"
@@ -96,7 +96,7 @@
                 <TextView
 
                     android:textColor="@color/black"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                     />
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -123,12 +123,12 @@
                     android:layout_height="wrap_content"
                     android:text="3. User Conduct"
 
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"
                     />
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -138,7 +138,7 @@
                     android:paddingBottom="8dp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -148,7 +148,7 @@
                     android:paddingBottom="8dp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -158,7 +158,7 @@
                     android:paddingBottom="8dp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -168,7 +168,7 @@
                     android:paddingBottom="8dp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -186,11 +186,11 @@
                     android:layout_height="wrap_content"
                     android:text="4. Privacy Policy"
 
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -207,11 +207,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="5. Termination of Service"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -228,11 +228,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="6. Disclaimers"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -248,7 +248,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="7. Limitation of Liability"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"/>
 
                 <!-- Paragraph: Changes to Terms -->
@@ -257,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
 
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:paddingBottom="16dp"
                     android:text="We are not liable for any direct, indirect, incidental, special, or consequential damages that may result from your use of our service."
                     android:textColor="@color/black" />
@@ -269,11 +269,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="8. Changes to Terms"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 
@@ -290,11 +290,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="9. Contact Information"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"/>
 
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
                     android:textSize="14sp"
 

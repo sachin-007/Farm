@@ -71,7 +71,7 @@
                                     android:text=" Nutrients"
                                     android:textSize="15dp"
                                     android:textColor="@color/black"
-                                    android:fontFamily="@font/celebes_bold"
+                                    android:fontFamily="@font/urbanist_bold"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -82,7 +82,7 @@
                                     android:text="- 1 days after crop establishment"
                                     android:textColor="@color/black"
                                     android:textSize="12sp"
-                                    android:fontFamily="@font/celebes_reguler"
+                                    android:fontFamily="@font/urbanist_regular"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -98,7 +98,7 @@
                             android:textColor="@color/black"
                             android:textSize="14sp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Water Qty"
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_bold"
+                                android:fontFamily="@font/urbanist_bold"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -140,7 +140,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="400 lit."
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_reguler"
+                                android:fontFamily="@font/urbanist_regular"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -156,7 +156,7 @@
                             android:layout_height="wrap_content"
                             android:text="Show Option"
                             android:textSize="14sp"
-                            android:fontFamily="@font/celebes_reguler"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="10dp"
                             android:textColor="#00a693"/>
@@ -245,7 +245,7 @@
                                     android:text=" Nutrients"
                                     android:textSize="15dp"
                                     android:textColor="@color/black"
-                                    android:fontFamily="@font/celebes_bold"
+                                    android:fontFamily="@font/urbanist_bold"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -256,7 +256,7 @@
                                     android:text="- 1 days after crop establishment"
                                     android:textColor="@color/black"
                                     android:textSize="12sp"
-                                    android:fontFamily="@font/celebes_reguler"
+                                    android:fontFamily="@font/urbanist_regular"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -272,7 +272,7 @@
                             android:textColor="@color/black"
                             android:textSize="14sp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -281,7 +281,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -290,7 +290,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -304,7 +304,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Water Qty"
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_bold"
+                                android:fontFamily="@font/urbanist_bold"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -314,7 +314,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="400 lit."
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_reguler"
+                                android:fontFamily="@font/urbanist_regular"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -330,7 +330,7 @@
                             android:layout_height="wrap_content"
                             android:text="Show Option"
                             android:textSize="14sp"
-                            android:fontFamily="@font/celebes_reguler"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="10dp"
                             android:textColor="#00a693"/>
@@ -419,7 +419,7 @@
                                     android:text=" Nutrients"
                                     android:textSize="15dp"
                                     android:textColor="@color/black"
-                                    android:fontFamily="@font/celebes_bold"
+                                    android:fontFamily="@font/urbanist_bold"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -430,7 +430,7 @@
                                     android:text="- 1 days after crop establishment"
                                     android:textColor="@color/black"
                                     android:textSize="12sp"
-                                    android:fontFamily="@font/celebes_reguler"
+                                    android:fontFamily="@font/urbanist_regular"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -446,7 +446,7 @@
                             android:textColor="@color/black"
                             android:textSize="14sp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -455,7 +455,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -464,7 +464,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -478,7 +478,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Water Qty"
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_bold"
+                                android:fontFamily="@font/urbanist_bold"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -488,7 +488,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="400 lit."
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_reguler"
+                                android:fontFamily="@font/urbanist_regular"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -504,7 +504,7 @@
                             android:layout_height="wrap_content"
                             android:text="Show Option"
                             android:textSize="14sp"
-                            android:fontFamily="@font/celebes_reguler"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="10dp"
                             android:textColor="#00a693"/>
@@ -593,7 +593,7 @@
                                     android:text=" Nutrients"
                                     android:textSize="15dp"
                                     android:textColor="@color/black"
-                                    android:fontFamily="@font/celebes_bold"
+                                    android:fontFamily="@font/urbanist_bold"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -604,7 +604,7 @@
                                     android:text="- 1 days after crop establishment"
                                     android:textColor="@color/black"
                                     android:textSize="12sp"
-                                    android:fontFamily="@font/celebes_reguler"
+                                    android:fontFamily="@font/urbanist_regular"
                                     android:layout_gravity="center_vertical"
                                     android:paddingStart="5dp"
                                     android:paddingEnd="5dp"
@@ -620,7 +620,7 @@
                             android:textColor="@color/black"
                             android:textSize="14sp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -629,7 +629,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -638,7 +638,7 @@
                             android:textSize="14sp"
                             android:layout_marginTop="5dp"
                             android:layout_marginStart="15dp"
-                            android:fontFamily="@font/celebes_reguler"/>
+                            android:fontFamily="@font/urbanist_regular"/>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -652,7 +652,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Water Qty"
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_bold"
+                                android:fontFamily="@font/urbanist_bold"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -662,7 +662,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="400 lit."
                                 android:textColor="@color/black"
-                                android:fontFamily="@font/celebes_reguler"
+                                android:fontFamily="@font/urbanist_regular"
                                 android:layout_gravity="center_vertical"
                                 android:paddingStart="5dp"
                                 android:paddingEnd="5dp"
@@ -678,7 +678,7 @@
                             android:layout_height="wrap_content"
                             android:text="Show Option"
                             android:textSize="14sp"
-                            android:fontFamily="@font/celebes_reguler"
+                            android:fontFamily="@font/urbanist_regular"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="10dp"
                             android:textColor="#00a693"/>
@@ -734,9 +734,10 @@
             android:paddingStart="10dp"
             android:drawableStart="@drawable/back"
             android:textColor="@color/white"
-            android:fontFamily="@font/celebes_semi_bold"
+            android:fontFamily="@font/urbanist_semi_bold"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
+
             />
     </LinearLayout>
 

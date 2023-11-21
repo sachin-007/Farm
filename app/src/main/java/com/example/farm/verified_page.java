@@ -22,7 +22,7 @@ public class verified_page extends AppCompatActivity {
         browsehome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browsehome = new Intent(verified_page.this,MainActivity.class);
+                Intent browsehome = new Intent(verified_page.this, Login_page.class);
                 startActivity(browsehome);
             }
         });

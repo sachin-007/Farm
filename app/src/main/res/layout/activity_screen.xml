@@ -3,8 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -39,24 +37,26 @@
 
                 <!-- Heading -->
                 <TextView
+                    android:id="@+id/opt1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/radio1"
-                    android:text="Option 1"
+                    android:text="irrigation"
                     android:textSize="16sp"
-                    android:fontFamily="@font/celebes_bold"
+                    android:fontFamily="@font/urbanist_bold"
                     android:textColor="@color/black"
                     />
 
                 <!-- Paragraph -->
                 <TextView
+                    android:id="@+id/des1"
                     android:textColor="#35383F"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/radio1"
                     android:layout_toEndOf="@id/radio1"
                     android:maxLines="2"
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:text="simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
                     android:textSize="14sp"/>
             </RelativeLayout>
@@ -79,24 +79,28 @@
 
                 <!-- Heading -->
                 <TextView
+                    android:id="@+id/opt2"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/radio2"
-                    android:text="Option 2"
+                    android:text="spreay"
                     android:textSize="16sp"
-                    android:fontFamily="@font/celebes_bold"
+                    android:fontFamily="@font/urbanist_bold"
                     android:textColor="@color/black"
                     />
 
                 <!-- Paragraph -->
                 <TextView
+                    android:id="@+id/des2"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/radio2"
                     android:layout_toEndOf="@id/radio2"
                     android:maxLines="2"
                     android:textColor="#35383F"
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a"
                     android:textSize="14sp"/>
             </RelativeLayout>
@@ -110,7 +114,7 @@
 
                 <!-- Radio Button -->
                 <RadioButton
-                    android:id="@+id/radio3"
+                        android:id="@+id/radio3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -118,23 +122,27 @@
 
                 <!-- Heading -->
                 <TextView
+                    android:id="@+id/opt3"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/radio3"
-                    android:text="Option 3"
+                    android:text="medicines"
                     android:textSize="16sp"
-                    android:fontFamily="@font/celebes_bold"
+                    android:fontFamily="@font/urbanist_bold"
                     android:textColor="@color/black"
                     />
 
                 <!-- Paragraph -->
 
                 <TextView
+                    android:id="@+id/des3"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/radio3"
                     android:layout_toEndOf="@id/radio3"
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:maxLines="2"
                     android:textColor="#35383F"
                     android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."

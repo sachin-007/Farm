@@ -52,6 +52,38 @@ public class CalendarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_calendar, container, false);
 
+        TextView sector1 = rootView.findViewById(R.id.sector1);
+        TextView sector2 = rootView.findViewById(R.id.sector2);
+        TextView sector3 = rootView.findViewById(R.id.sector3);
+
+
+        sector1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sector1.setBackgroundResource(R.drawable.greenboxfill);
+                sector2.setBackgroundResource(R.drawable.greenbox);
+                sector3.setBackgroundResource(R.drawable.greenbox);
+            }
+        });
+
+        sector2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sector2.setBackgroundResource(R.drawable.greenboxfill);
+                sector1.setBackgroundResource(R.drawable.greenbox);
+                sector3.setBackgroundResource(R.drawable.greenbox);
+            }
+        });
+
+        sector3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sector3.setBackgroundResource(R.drawable.greenboxfill);
+                sector2.setBackgroundResource(R.drawable.greenbox);
+                sector1.setBackgroundResource(R.drawable.greenbox);
+            }
+        });
+
 
 
         // Initialize the popups
@@ -82,6 +114,12 @@ public class CalendarFragment extends Fragment {
                 nutrientsPopup.setVisibility(View.GONE);
                 farmPracticePopup.setVisibility(View.GONE);
                 lineview.setVisibility(View.VISIBLE);
+
+                irrigationTextView.setBackgroundResource(R.drawable.greenboxfill);
+                sprayPestTextView.setBackgroundResource(R.drawable.greenbox);
+                nutrientsTextView.setBackgroundResource(R.drawable.greenbox);
+                farmPracticeTextView.setBackgroundResource(R.drawable.greenbox);
+
             }
         });
 
@@ -93,6 +131,11 @@ public class CalendarFragment extends Fragment {
                 nutrientsPopup.setVisibility(View.GONE);
                 farmPracticePopup.setVisibility(View.GONE);
                 lineview.setVisibility(View.VISIBLE);
+
+                irrigationTextView.setBackgroundResource(R.drawable.greenbox);
+                sprayPestTextView.setBackgroundResource(R.drawable.greenboxfill);
+                nutrientsTextView.setBackgroundResource(R.drawable.greenbox);
+                farmPracticeTextView.setBackgroundResource(R.drawable.greenbox);
 
             }
         });
@@ -106,6 +149,11 @@ public class CalendarFragment extends Fragment {
                 farmPracticePopup.setVisibility(View.GONE);
                 lineview.setVisibility(View.VISIBLE);
 
+                irrigationTextView.setBackgroundResource(R.drawable.greenbox);
+                sprayPestTextView.setBackgroundResource(R.drawable.greenbox);
+                nutrientsTextView.setBackgroundResource(R.drawable.greenboxfill);
+                farmPracticeTextView.setBackgroundResource(R.drawable.greenbox);
+
             }
         });
 
@@ -117,6 +165,11 @@ public class CalendarFragment extends Fragment {
                 nutrientsPopup.setVisibility(View.GONE);
                 farmPracticePopup.setVisibility(View.VISIBLE);
                 lineview.setVisibility(View.VISIBLE);
+
+                irrigationTextView.setBackgroundResource(R.drawable.greenbox);
+                sprayPestTextView.setBackgroundResource(R.drawable.greenbox);
+                nutrientsTextView.setBackgroundResource(R.drawable.greenbox);
+                farmPracticeTextView.setBackgroundResource(R.drawable.greenboxfill);
 
             }
         });

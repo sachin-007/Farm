@@ -45,10 +45,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="About US"
-                    android:textSize="14sp"
+                    android:textSize="17sp"
                     android:textColor="#FF000000"
                     android:layout_marginStart="10dp"
-                    android:fontFamily="@font/celebes_bold"/>
+                    android:fontFamily="@font/urbanist_bold"/>
 
 
 
@@ -72,13 +72,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Who We Are"
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"
                     android:paddingBottom="8dp"/>
 
                 <!-- Paragraph: Welcome to [Your Company Name]! -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -88,7 +88,7 @@
 
                 <!-- Subheading: Our Story -->
                 <TextView
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"
                     android:textColor="@color/black"
 
@@ -100,7 +100,7 @@
 
                 <!-- Paragraph: [Your Company Name] was founded in [Year of Establishment] -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -110,7 +110,7 @@
 
                 <!-- Subheading: Meet Our Team -->
                 <TextView
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="18sp"
                     android:textColor="@color/black"
 
@@ -129,13 +129,13 @@
                     android:layout_height="wrap_content"
                     android:text="[Founder/Team Member Name] - [Role]"
 
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="14sp"
                     android:paddingBottom="8dp"/>
 
                 <!-- Team Member 1 Description -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -146,7 +146,7 @@
                 <!-- Team Member 2: [Founder/Team Member Name] - [Role] -->
                 <TextView
 
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="14sp"
                     android:textColor="@color/black"
 
@@ -159,7 +159,7 @@
 
                 <!-- Team Member 2 Description -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -170,7 +170,7 @@
                 <!-- Team Member 3: [Founder/Team Member Name] - [Role] -->
                 <TextView
 
-                    android:fontFamily="@font/celebes_semi_bold"
+                    android:fontFamily="@font/urbanist_semi_bold"
                     android:textSize="14sp"
                     android:textColor="@color/black"
 
@@ -182,7 +182,7 @@
 
                 <!-- Team Member 3 Description -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -192,7 +192,7 @@
 
                 <!-- Subheading: Our Vision -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -204,7 +204,7 @@
 
                 <!-- Paragraph: We believe in [Describe your long-term vision or what you hope to achieve]. -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -214,7 +214,7 @@
 
                 <!-- Subheading: Contact Us -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"
@@ -226,7 +226,7 @@
 
                 <!-- Paragraph: Have questions or want to get in touch? -->
                 <TextView
-                    android:fontFamily="@font/celebes_reguler"
+                    android:fontFamily="@font/urbanist_regular"
                     android:textColor="@color/black"
 
                     android:layout_width="match_parent"

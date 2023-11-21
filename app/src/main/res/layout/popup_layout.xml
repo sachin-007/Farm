@@ -27,7 +27,7 @@
                 android:text="select soil type"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                android:fontFamily="@font/celebes_semi_bold"
+                android:fontFamily="@font/urbanist_bold"
                 android:layout_marginBottom="15dp"
                 />
             <LinearLayout
@@ -53,7 +53,7 @@
                         android:contentDescription="Sandy" />
                     <TextView
                         android:layout_width="wrap_content"
-                        android:fontFamily="@font/celebes_semi_bold"
+                        android:fontFamily="@font/urbanist_semi_bold"
                         android:textColor="@color/textfent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -81,7 +81,7 @@
                         android:layout_width="wrap_content"
                         android:textColor="@color/textfent"
 
-                        android:fontFamily="@font/celebes_semi_bold"
+                        android:fontFamily="@font/urbanist_semi_bold"
 
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -115,7 +115,7 @@
                     <TextView
                         android:textColor="@color/textfent"
 
-                        android:fontFamily="@font/celebes_semi_bold"
+                        android:fontFamily="@font/urbanist_semi_bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -141,7 +141,7 @@
                     <TextView
                         android:textColor="@color/textfent"
 
-                        android:fontFamily="@font/celebes_semi_bold"
+                        android:fontFamily="@font/urbanist_semi_bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
